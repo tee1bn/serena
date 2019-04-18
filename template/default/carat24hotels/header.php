@@ -171,7 +171,7 @@
                                 <img src="assets/img/logo%402x.png" class="retina" alt="logo">
                                 <img src="assets/img/logo_white.png" class="normal white-logo" alt="logo">
                                 <img src="assets/img/logo_white%402x.png" class="retina white-logo" alt="logo"> -->
-                                <h3 itemprop="name">Carat24Hotels 
+                                <h3 style="font-size:19px;" itemprop="name">Serena Hotels 
                                 <small style="position: absolute;  left: 18%;  font-size: 12px;">hotel & suites</small>
                                  </h3>
                             </a>
