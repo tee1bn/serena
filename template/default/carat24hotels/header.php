@@ -1,7 +1,7 @@
 <?php
     $gitstar_phone      = "+234 7062983151 ";
-    $gitstar_email      = "booking@carat24hotelsng.com";
-    $hotel_full_name    = "Carat24 Hotels and Suites";
+    $gitstar_email      = "booking@serenahotelsng.com";
+    $hotel_full_name    = "Serena Hotels and Suites";
     $hotel_address_html = '  <span itemprop="streetAddress">  48, Asoge street, </span><br>
                               <span itemprop="addressLocality">  by Okota/Itire bridge, </span> <br>
                                 <span itemprop="addressRegion">Ijesha Lagos. </span>';
@@ -13,30 +13,46 @@
 
         $hotel_rooms = [
                 0  => [
-                    'name'              => 'Classic Room',
+                    'name'              => 'Studio Room',
                     'star_rate'         => '4',
-                    'image'             => $this_folder."/assets/kenny_edited/classic_room.jpg",
-                    'special_feature'   => 'With breakfast, Wifi, Fridge and Tv',
-                    'rate'              => '12,000',
+                    'image'             => $this_folder."/assets/kenny_edited/studio_room.jpg",
+                    'special_feature'   => 'Single bed, 24" Flat screen Tv, en suite,
+                                                   bathroom, mini-fridge.',
+                    'rate'              => '7,000',
+                    'old_rate'              => '12,000',
                     'brief_description' => 'If you are on good budget and require a sound accommodation to lay your head while enjoying a stress free surroundings that also support work.',
                     ],
 
-               1  => [
-                    'name'              => 'Standard Room',
+                1  => [
+                    'name'              => 'Classic Room',
+                    'star_rate'         => '4',
+                    'image'             => $this_folder."/assets/kenny_edited/classic_room.jpg",
+                    'special_feature'   => 'Double Bed, 32" Flat screen Tv, En suite, 
+                    bathroom, intercom, free Wifi, table top Fridge.',
+                    'rate'              => '8,000',
+                    'old_rate'              => '12,000',
+                    'brief_description' => 'If you are on good budget and require a sound accommodation to lay your head while enjoying a stress free surroundings that also support work.',
+                    ],
+
+               2  => [
+                    'name'              => 'Deluxe Room',
                     'star_rate'         => '4',
                     'image'             =>  $this_folder."/assets/kenny_edited/standard_rooms.jpg",
-                    'special_feature'   => 'With breakfast, Wifi, Fridge and Tv',
-                    'rate'              => '15,000',
+                    'special_feature'   => 'Double Bed, 32" flat screen Tv, en suite, bathroom, intercom,
+                                            Table top Fridge, Wifi, Fridge.',
+                    'rate'              => '10,000',
+                    'old_rate'              => '15,000',
                     'brief_description' => ' This features good work area. when you book this room, you get access to breakfast, free wifi, 24 hours electricity',
                     ],
 
 
-                 2  => [
-                        'name'              => 'Suite',
-                        'star_rate'         => '4',
+                 3  => [
+                        'name'              => 'Luxury Suite',
+                        'star_rate'         => '5',
                         'image'             => $this_folder."/assets/kenny_edited/suite.jpg",
-                        'special_feature'   => 'With breakfast, Jacuzzi, Work space, Wifi',
+                        'special_feature'   => 'Double bed, sitting room, balccony, 32" flat screen Tv,en suite, bathroom, intercom, free wifi, fridge ,work space, Wifi',
                         'rate'              => '20,000',
+                        'old_rate'              => '20,000',
                         'brief_description' => 'When you book this room, you get access to breakfast, free wifi, 24 hours electricity as well as clean bathroom and toilet and Jacuzzi. Perfect for comfort,relaxation and good privacy.'
                                                 ],
 
@@ -50,14 +66,23 @@
        
         $hotel_testmonials= [
 
-                      0=>  [
+                        [
+                        'review'    => 'My checking process was really smooth. And they made it a less stressful trip for me.',
+                        'guest'     => 'Mc Brown'
+                        ],
+                        [
                         'review'    => 'Smooth checkin process, very great place to stay, courteous and nice staffs.',
                         'guest'     => 'Adeleke mobolaji'
                         ],
 
-                      1=>  [
+                       [
                         'review'    => 'Really love the environment, neatly kept plus quality meals at the restaurant.',
                         'guest'     => 'Jide mobolaji'
+                        ],
+
+                       [
+                        'review'    => 'The staffs are very courteous and friendly. Neatly kept plus quality meals at the restaurant.',
+                        'guest'     => 'Jerry Morgan'
                         ],
 
                             ];
@@ -90,6 +115,15 @@
                                 'description' =>  'When you\'ve not packed enough apparel to last for the duration of your stay, you can always take advantage of our laundry service. Even if you\'ve never used a hotel laundry service before. You can head off to a meeting or a day of sightseeing and enjoy clean, fresh laundry when you return to your room.',
 
                                 'image' => $this_folder."/assets/edited_images/laundry.jpg"
+                            ], 
+
+
+
+                        3 => [
+                                'name'   => 'Conference Hall',
+                                'description' =>  'Our Hall can accommodate up to 50 guest convieniently in Class room seating arrangment. Potential Event planners are welcome to come and see it for maximum satifaction. Kindly send us a mail or call for direct booking.',
+
+                                'image' => $this_folder."/assets/kenny_edited/conference_hall.jpg"
                             ], 
 
 
@@ -186,23 +220,23 @@
                                      
                                     </li>
                                     <li class="">
-                                        <a href="<?=$this->domain;?>/rooms-at-carat-24-hotels-and-suites-ijesha-lagos-nigeria">Rooms</a>
+                                        <a href="<?=$this->domain;?>/rooms-at-serena-hotels-and-suites-ijesha-lagos-nigeria">Rooms</a>
                                        <!--  <ul class="sub-menu">
                                             <li><a href="rooms.php">rooms</a></li>
                                             
                                         </ul> -->
                                     </li>
                                     <li class="">
-                                        <a href="<?=$this->domain;?>/facilities-at-carat-24-hotels-and-suites-ijesha-lagos-nigeria">Facilities</a>
+                                        <a href="<?=$this->domain;?>/facilities-at-serena-hotels-and-suites-ijesha-lagos-nigeria">Facilities</a>
                                        
                                     </li>
                                     <li>
-                                        <a href="<?=$this->domain;?>/gallery-at-carat-24-hotels-and-suites-ijesha-lagos-nigeria">Gallery</a>
+                                        <a href="<?=$this->domain;?>/gallery-at-serena-hotels-and-suites-ijesha-lagos-nigeria">Gallery</a>
                                     </li>
                                    
                                 
                                     <li>
-                                        <a href="<?=$this->domain;?>/contact-at-carat-24-hotels-and-suites-ijesha-lagos-nigeria">Contact</a>
+                                        <a href="<?=$this->domain;?>/contact-at-serena-hotels-and-suites-ijesha-lagos-nigeria">Contact</a>
                                     </li>
                                   
                                     <li>

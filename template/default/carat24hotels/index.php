@@ -70,7 +70,7 @@ $page_seo_description = "Find us easily. Call $gitstar_phone for directions. Ple
 
                                 <?php
                                  foreach ($hotel_rooms as  $room):
-$star_rate_html ='';
+                                        $star_rate_html ='';
                                     for ($i=0; $i < $room['star_rate']; $i++) { 
                                     $star_rate_html .='<i class="icon ion-ios-star color"></i>';
                                     }
@@ -82,13 +82,15 @@ $star_rate_html ='';
                                         <div class="content">
                                             <?=$star_rate_html;?>
                                               <h3><?=$room['name'];?> 
-                                                <a class="pull-right"><?=$currency;?><?=$room['rate'];?>
+                                                <a class="pull-right">
+                                                    <del><?=$currency;?><?=$room['old_rate'];?></del>
+                                                <?=$currency;?><?=$room['rate'];?>
                                                 <span style="font-size: 12px;">/night</span></a>
                                                 </h3>
 
                                         <span class="category"><?=$room['special_feature'];?></span>
                                             <p class="white"><?=$room['brief_description'];?>...
-                                                <a href="<?=$this->domain;?>/rooms-at-carat-24-hotels-and-suites-ijesha-lagos-nigeria">read more </a></p>
+                                                <a href="<?=$this->domain;?>/rooms-at-serena-hotels-and-suites-ijesha-lagos-nigeria">read more </a></p>
                                             <a href="javascript:load_booking_engine()" class="btn-alt small color">Book now</a>
                                         </div>
                                     </div>
@@ -156,7 +158,7 @@ $star_rate_html ='';
                                                 <p><?=substr($service['description'], 0, 200);?>..</p>
                                             </div>
                                             <div class="line"></div>
-                                            <a href="<?=$this->domain;?>/facilities-at-carat-24-hotels-and-suites-ijesha-lagos-nigeria" class="link"></a>
+                                            <a href="<?=$this->domain;?>/facilities-at-serena-hotels-and-suites-ijesha-lagos-nigeria" class="link"></a>
                                         </div>
                                     </div>
                                   

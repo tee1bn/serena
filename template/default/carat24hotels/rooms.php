@@ -64,6 +64,7 @@ $star_rate_html ='';
                                        <?=$star_rate_html;?>
                                         </span>
                                    <h3><?=$room['name'];?> <a class="pull-right">
+                                                    <del><?=$currency;?><?=$room['old_rate'];?></del>
                                     <?=$currency;?><?=$room['rate'];?>
                                     <span style="font-size: 12px;">/night</span></a></h3>
 

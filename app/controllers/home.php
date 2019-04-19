@@ -99,7 +99,7 @@ print_r($this->validator->errors());
 	}
 
 
-	$this->redirect()->to($this->domain.'/contact-at-carat-24-hotels-and-suites-ijesha-lagos-nigeria')->go();
+	Redirect::to('contact-at-serena-hotels-and-suites-ijesha-lagos-nigeria');
 	
 	}
 

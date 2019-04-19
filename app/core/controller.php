@@ -12,9 +12,20 @@
 
 		public function __get($property)
 		{
-			if ($property == 'domain') {
-				return Config::domain();
+
+			switch ($property) {
+				case 'domain':
+					return Config::domain();
+					break;
+				case 'name':
+					return Config::project_name();
+					break;
+				
+				default:
+					# code...
+					break;
 			}
+		
 		}
 
 	

@@ -20,6 +20,14 @@ $router =[
 
 
 
+#for new serena
+'rooms-at-serena-hotels-and-suites-ijesha-lagos-nigeria' =>'RoomsController',
+'facilities-at-serena-hotels-and-suites-ijesha-lagos-nigeria' =>'FacilitiesController',
+'gallery-at-serena-hotels-and-suites-ijesha-lagos-nigeria' =>'GalleryController',
+'contact-at-serena-hotels-and-suites-ijesha-lagos-nigeria' =>'ContactController',
+
+
+
 
 
 
