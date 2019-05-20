@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/carathot/public_html/serenahotelsng.com 
+    - export DEPLOYPATH=/home2/poolscom/public_html/serenahotelsng.com 
     - /bin/cp -r * $DEPLOYPATH
